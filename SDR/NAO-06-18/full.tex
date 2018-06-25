@@ -1,0 +1,30 @@
+\documentclass[aspectratio=169]{beamer}
+\usetheme{sdr}
+% \graphicspath{{./tex/imgs/}}
+
+\usepackage[utf8]{inputenc}
+
+\title{Programmiamo Umanoidi!}
+\subtitle{}
+\author{Lorenzo Leonardini}
+\institute{Scuola di Robotica}
+\date{\today}
+
+\def\fulldocument{fulldocument}
+
+\begin{document}
+
+\AtBeginSection[]
+{
+\begin{frame}{Indice}
+\tableofcontents[currentsection]
+\end{frame}
+}
+
+\input{nao.tex}
+\input{choregraphe.tex}
+\input{actor-studio.tex}
+\input{nao-store.tex}
+\input{vision.tex}
+
+\end{document}
